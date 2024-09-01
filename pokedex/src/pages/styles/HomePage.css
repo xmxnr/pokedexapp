@@ -1,0 +1,58 @@
+.home__container {
+	width: 100vw;
+	height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(240, 255, 255, 0.575);
+
+	img {
+		width: 10rem;
+		animation: pokeballrotate 5s infinite;
+	}
+
+	.home__title {
+		font-size: 7rem;
+		text-align: left;
+	}
+
+	.home__greeting {
+		font-size: 2.5rem;
+	}
+
+	.home__trainer {
+		font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	}
+
+	form {
+        padding: 20px;
+		.home__input {
+			border-radius: 20px;
+			border: 2px solid;
+			background-color: rgb(255, 255, 255);
+			font-family: 'Poppins', Arial, Helvetica, sans-serif;
+			text-align: center;
+		}
+
+		.home__button {
+			height: 2rem;
+			border-radius: 20px;
+			background-color: grey;
+			color: #f0ffff;
+			font-family: 'New Amsterdam', Impact, Haettenschweiler,
+				'Arial Narrow Bold', sans-serif;
+			transition: 500ms ease-in-out;
+
+			&:hover {
+				background-color: aliceblue;
+				color: black;
+			}
+		}
+	}
+}
+
+@keyframes pokeballrotate {
+	to {
+		transform: rotate(360deg);
+	}
+}

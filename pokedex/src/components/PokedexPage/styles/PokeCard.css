@@ -1,0 +1,133 @@
+.card__container {
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 20rem;
+	height: 500px;
+	border-radius: 20px;
+	background-color: rgba(216, 216, 216, 0.877);
+	box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.205);
+
+	img {
+		width: 250px;
+		background-color: aliceblue;
+		border-radius: 20px;
+	}
+
+	.card__info--container {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.card__info {
+		width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+		.card__title {
+			font-size: 2.5rem;
+			text-align: center;
+		}
+
+		.card__type {
+            width: 100%;
+			column-gap: 10px;
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.grass {
+				background-color: rgba(0, 128, 0, 0.705);
+			}
+			.normal {
+				background-color: beige;
+			}
+			.fighting {
+				background-color: red;
+			}
+			.flying {
+				background-color: rgb(65, 65, 175);
+				color: aliceblue;
+			}
+			.poison {
+				background-color: purple;
+				color: aliceblue;
+			}
+			.ground {
+				background-color: brown;
+				color: aliceblue;
+			}
+			.rock {
+				background-color: rgb(165, 101, 42);
+			}
+			.bug {
+				background-color: rgb(158, 219, 65);
+			}
+			.ghost {
+				background-color: beige;
+			}
+			.steel {
+				background-color: grey;
+			}
+			.fire {
+				background-color: orange;
+			}
+			.water {
+				background-color: aqua;
+			}
+			.electric {
+				background-color: yellow;
+			}
+			.phychic {
+				background-color: black;
+				color: aliceblue;
+			}
+			.ice {
+				background-color: aquamarine;
+			}
+			.dragon {
+				background-color: red;
+			}
+			.dark {
+				background-color: black;
+				color: aliceblue;
+			}
+			.fairy {
+				background-color: goldenrod;
+			}
+			.stellar {
+				background-color: steelblue;
+				color: aliceblue;
+			}
+
+			li {
+				display: inline-block;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+				width: 45%;
+				text-align: center;
+				background-color: aliceblue;
+				border-radius: 20px;
+				height: 1.5em;
+			}
+		}
+		.card__stats {
+			width: 60%;
+			display: flex;
+			flex-direction: column;
+			
+
+			.stats__li {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				font-size: 1.2rem;
+				.stat__name {
+					color: grey;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+	box-sizing: border-box;
+	scrollbar-width: thin;
+	font-family: 'New Amsterdam';
+
+	*,
+	*::after,
+	*::before {
+		box-sizing: inherit;
+	}
+	h1,
+	h2,
+	h3,
+	p,
+	ul,
+	hr {
+		margin: 0;
+	}
+
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	button,
+	input {
+		font-size: inherit;
+	}
+
+    button{
+        cursor: pointer	;
+        border: none;
+    }
+
+    input{
+        outline: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+
+    }
+
+	body {
+		margin: 0;
+	}
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+}

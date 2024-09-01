@@ -1,0 +1,30 @@
+.title__container {
+	background:linear-gradient(90deg, #66CFFFff, #78B2DAff, #8B94B4ff, #9D778Fff, #AF5969ff, #C23C44ff, #D41E1Eff); ;
+	.general__title {
+		text-align: center;
+		font-size: 4rem;
+		color: white;
+	}
+
+	img {
+		width: 50px;
+	}
+}
+
+.general__welcome {
+	text-align: center;
+	font-size: 1.5rem;
+
+	span {
+		color: #77a0a9;
+	}
+}
+
+.cards__container {
+	height: 80vh;
+	width: 100vw;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}

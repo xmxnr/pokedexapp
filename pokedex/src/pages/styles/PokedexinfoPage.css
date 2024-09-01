@@ -1,0 +1,18 @@
+.infopoke__container{
+    background-color: aliceblue;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+    .infopoke__img{
+        width: 100%;
+    }
+
+    .pokemon__name {
+        font-size: 3rem;
+        text-shadow: 2px 2px 1px grey;
+    }
+}
